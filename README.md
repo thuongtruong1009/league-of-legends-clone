@@ -34,3 +34,9 @@
         PUSH: cũng trên bash, gõ: git push origin master
     + Khi ai đó push thay đổi gì mới lên Github thì lấy chúng về máy tính bằng cách: gõ trên bash tại thư mục đã khởi tạo git (git init): git pull origin master
     + Hết, luyện tập bằng cách tạo 1 repo trống trên github cá nhân.
+    
+## IV. Git GUI:
+    + Git GUI cho phép dùng git với giao diện, trực quan, bấm nút mà không cần gõ lệnh.
+    + SourceTree: miễn phí và lợi hại: https://www.sourcetreeapp.com
+    + ToroiseGit: cũng miễn phí, ai dùng svn quen thì TortoiseGit thôi: https://tortoisegit.org/
+    + "Integrated Source Control" của IDE: là trình quản lý git tích hơp có sẵn trong các IDE ví dụ như VSCode, Visual Studio... cũng thuận tiện và lợi hại không kém.
