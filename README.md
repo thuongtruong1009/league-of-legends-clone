@@ -18,3 +18,19 @@
     + Collaborators: làm việc nhóm với git:
     + ai tạo repository thì vào: https://github.com/<tên_tài_khoản>/<tên_repository>/settings/collaboration
     + gõ email github thành viên vào, nếu người được mời làm chung đồng ý thì cùng làm thôi.
+    
+## III. Ví dụ thực tế:
+    + Tải về cài đặt git vào máy tính: https://git-scm.com/
+    + Tiếp theo là phải tạo 1 remote repository (thư mục trên github.com) đó là chỗ khi push code sẽ lên, repository đó có 1 đừờng dẫn, đuôi là *.git.
+      ví dụ: https://github.com/thuongtruong1009/huong-dan-su-dung.git. Việc tạo này phải tạo trên trang github.com, bằng cách tìm nút tạo ("New repository") trên Github.
+    + Tạo 1 thư mục để chứa code trong máy tính. Thư mục này sẽ liên kết với cái thư mục trên github sau này (làm theo các bước dưới)
+    + Khởi tạo git trong thư mục mới: click chuột phải chọn "Git bash here" để mở màn hình console. Gõ: git init
+    + Liên kết nó với thư mục ở github.com: cũng ở màn hình consolde mới mở lên, gõ: git remote add origin <đường dẫn tới thư mục trên github.com>
+      ví dụ: git remote add origin https://github.com/thuongtruong1009/huong-dan-su-dung.git
+    + Sau khi liên kết 2 thư mục, để lấy hết nội dung trên thư mục ở github về máy tính, trên console, gõ: git pull origin master
+    + Khi làm gì đó thay đổi trên thư mục ở máy tính(local), phải ADD sau đó COMMIT sau đó PUSH lên github. Làm như sau:
+        ADD: mở git bash (màn hình console) lên, gõ: git add *
+        COMMIT: cũng trên bash, gõ: git commit -m "ghi chú nội dụng đã thực hiện của việc commit "
+        PUSH: cũng trên bash, gõ: git push origin master
+    + Khi ai đó push thay đổi gì mới lên Github thì lấy chúng về máy tính bằng cách: gõ trên bash tại thư mục đã khởi tạo git (git init): git pull origin master
+    + Hết, luyện tập bằng cách tạo 1 repo trống trên github cá nhân.
