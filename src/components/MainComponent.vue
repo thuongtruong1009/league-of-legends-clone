@@ -5,9 +5,9 @@
       <h3>Patch notes</h3>
     </div>
     <div class="content-main">
-      <h1>DIGITAL WEREWOLF</h1>
+      <h1>LEAGUE OF LEGENDS</h1>
       <p>
-        Welcome to the Digital Werewolf battle - the world's most engaging
+        Welcome to the League of Legends battle - the world's most engaging
         fighting game.
       </p>
       <h3>INTRODUCTION</h3>

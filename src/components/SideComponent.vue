@@ -63,7 +63,7 @@
       </div>
       <div class="version">
         <h4>
-          <a href="https://github.com/digital-werewolf">V2.0</a>
+          <a href="https://github.com/thuongtruong1009/league-of-legends-clone">V2.0</a>
         </h4>
       </div>
       <div class="bug">
