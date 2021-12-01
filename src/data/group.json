@@ -1,31 +1,31 @@
 [{
         "name": "Chat bot",
         "ID": 6438213,
-        "flag": "/src/assets/images/aside-icons/main-group-flag.png"
+        "flag": "main-group-flag"
     },
     {
         "name": "Quẩy Mana",
         "ID": 23191,
-        "flag": "/src/assets/images/aside-icons/group-flag.png"
+        "flag": "group-flag"
     },
     {
         "name": "Cày gêm",
         "ID": 5723,
-        "flag": "/src/assets/images/aside-icons/group-flag.png"
+        "flag": "group-flag"
     },
     {
         "name": "Đâm trụ",
         "ID": 879887,
-        "flag": "/src/assets/images/aside-icons/group-flag.png"
+        "flag": "group-flag"
     },
     {
         "name": "Music Bot",
         "ID": 219313,
-        "flag": "/src/assets/images/aside-icons/main-group-flag.png"
+        "flag": "main-group-flag"
     },
     {
         "name": "Xiaolol",
         "ID": 45761,
-        "flag": "/src/assets/images/aside-icons/group-flag.png"
+        "flag": "group-flag"
     }
 ]

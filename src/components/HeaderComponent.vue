@@ -3,12 +3,12 @@
     <div class="header-logo">
       <img
         class="img-1"
-        src="../assets/images/play-button/play-button-shape.png"
+        src="/assets/images/play-button/play-button-shape.png"
       />
       <img
         class="img-2"
-        src="../assets/images/play-button/play-button-click-area.png"
-        @click.prevent="onClick('../assets/sounds/button-play-click.mp3')"
+        src="/assets/images/play-button/play-button-click-area.png"
+        @click.prevent="onClick('/assets/sounds/button-play-click.mp3')"
       />
     </div>
     <div class="header-menu">
@@ -20,22 +20,22 @@
     </div>
     <div class="header-extension">
       <ul>
-        <li><img src="../assets/images/header-icons/profile.png" /></li>
-        <li><img src="../assets/images/header-icons/collection.png" /></li>
-        <li><img src="../assets/images/header-icons/booty.png" /></li>
-        <li><img src="../assets/images/header-icons/shop.png" /></li>
+        <li><img src="/assets/images/header-icons/profile.png" /></li>
+        <li><img src="/assets/images/header-icons/collection.png" /></li>
+        <li><img src="/assets/images/header-icons/booty.png" /></li>
+        <li><img src="/assets/images/header-icons/shop.png" /></li>
       </ul>
     </div>
     <div class="header-riot">
-      <img src="../assets/images/header-icons/divider.png" />
+      <img src="/assets/images/header-icons/divider.png" />
       <ul>
         <li>
-          <img src="../assets/images/header-icons/riot-points.png" />{{
+          <img src="/assets/images/header-icons/riot-points.png" />{{
             this.$store.state.rp
           }}
         </li>
         <li>
-          <img src="../assets/images/header-icons/blue-essence.png" />{{
+          <img src="/assets/images/header-icons/blue-essence.png" />{{
             this.$store.state.thl
           }}
         </li>
@@ -43,7 +43,7 @@
     </div>
     <div class="header-profile">
       <div class="header-profile-avatar">
-        <img src="../assets/images/aside-icons/avatar-wrapper.png" />
+        <img src="/assets/images/aside-icons/avatar-wrapper.png" />
         <p class="header-profile-rank">{{ this.$store.state.rank }}</p>
       </div>
       <div class="header-profile-infor">
@@ -52,7 +52,7 @@
             {{ this.$store.state.userName }}
           </li>
           <li class="header-profile-infor-status">
-            <img src="../assets/images/aside-icons/check.ico" />{{
+            <img src="/assets/images/aside-icons/check.ico" />{{
               this.$store.state.userStatus
             }}
           </li>

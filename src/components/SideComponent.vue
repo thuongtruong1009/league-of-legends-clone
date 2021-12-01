@@ -3,16 +3,16 @@
     <div class="extension">
       <p>SOCIAL</p>
       <div>
-        <img src="../assets/images/aside-icons/add-friend.png" />
-        <img src="../assets/images/aside-icons/add-folder.png" />
-        <img src="../assets/images/aside-icons/options.png" />
-        <img src="../assets/images/aside-icons/search.png" />
+        <img src="/assets/images/aside-icons/add-friend.png" />
+        <img src="/assets/images/aside-icons/add-folder.png" />
+        <img src="/assets/images/aside-icons/options.png" />
+        <img src="/assets/images/aside-icons/search.png" />
       </div>
     </div>
     <div class="extension-group">
       <ul v-for="(group, index) in groups" :key="index">
         <li class="group-flag">
-          <img :src="group.flag" />
+          <img :src="`/assets/images/aside-icons/${group.flag}.png`" />
         </li>
         <li class="group-id">{{ group.ID }}</li>
         <li class="group-name">{{ group.name }}</li>
@@ -28,21 +28,21 @@
         <li @mouseover="mouseOverActive(index, $event)" @mouseleave="mouseLeave">
           <div class="view-table" v-show="isHovering == true">
             <div class="cover-image">
-              <img :src="`@/assets/images/cover_background/${friend.cover}.jpg`" />
+              <img :src="`/assets/images/cover_background/${friend.cover}.jpg`" />
             </div>
             <div class="avatar-image">
-              <img src="@/assets/images/aside-icons/platina.png" />
-              <img class="avatar" :src="`/src/assets/images/avatar/${friend.avatar}.jpg`" />
+              <img src="/assets/images/aside-icons/platina.png" />
+              <img class="avatar" :src="`/assets/images/avatar/${friend.avatar}.jpg`" />
             </div>
             <div class="intro-desc">
               <h1>{{ friend.name }}</h1>
               <h5>
-                <img src="@/assets/images/aside-icons/status-message.png" /> "Latest message"
+                <img src="/assets/images/aside-icons/status-message.png" /> "Latest message"
               </h5>
               <h4>{{ friend.recent }}</h4>
             </div>
           </div>
-          <img :src="`@/assets/images/avatar/${friend.avatar}.jpg`" />
+          <img :src="`/assets/images/avatar/${friend.avatar}.jpg`" />
           <div class="near-contact-statusIcon" :class="{ online: friend.status === 'online', offline: friend.status === 'offline', notAvailable: friend.status === 'not available'}"></div>
           <div>
             <span class="near-contact-name">{{ friend.name }}</span>
@@ -53,13 +53,13 @@
     </div>
     <div class="function-tool">
       <div class="chat">
-        <img src="../assets/images/aside-icons/chat.png" alt="chat" />
+        <img src="/assets/images/aside-icons/chat.png" alt="chat" />
       </div>
       <div class="mission">
-        <img src="../assets/images/aside-icons/missions.png" alt="mission" />
+        <img src="/assets/images/aside-icons/missions.png" alt="mission" />
       </div>
       <div class="voice">
-        <img src="../assets/images/aside-icons/voice.png" alt="voice" />
+        <img src="/assets/images/aside-icons/voice.png" alt="voice" />
       </div>
       <div class="version">
         <h4>
@@ -67,7 +67,7 @@
         </h4>
       </div>
       <div class="bug">
-        <img src="../assets/images/aside-icons/bug.png" alt="bug" />
+        <img src="/assets/images/aside-icons/bug.png" alt="bug" />
       </div>
     </div>
   </section>
